@@ -1,0 +1,9 @@
+# demo-screens
+
+Screen files for various EPICS Display Managers to demonstrate features.
+
+application | subdirectory | suffix | description
+=== | === | === | ===
+`medm` | `medm` | `.adl` | ...
+`caQtDM` | `caqtdm` | `.ui` | ...
+`PyDM` | `pydm` | `.ui` | ...
