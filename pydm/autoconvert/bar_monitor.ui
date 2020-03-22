@@ -778,7 +778,7 @@
         <string>oval_6</string>
       </property>
       <property name="rules" stdset="0">
-        <string>[{&quot;name&quot;: &quot;rule_0&quot;, &quot;property&quot;: &quot;Visible&quot;, &quot;channels&quot;: [{&quot;channel&quot;: &quot;demo:bar_RBV&quot;, &quot;trigger&quot;: true}], &quot;expression&quot;: &quot;ch[0]&gt;128&quot;}]</string>
+        <string>[{&quot;name&quot;: &quot;visibility&quot;, &quot;property&quot;: &quot;Visible&quot;, &quot;channels&quot;: [{&quot;channel&quot;: &quot;demo:bar_RBV&quot;, &quot;trigger&quot;: true}], &quot;expression&quot;: &quot;ch[0]&gt;128&quot;}]</string>
       </property>
       <property name="brush" stdset="0">
         <brush brushstyle="SolidPattern">
@@ -816,7 +816,7 @@
         <string>oval_7</string>
       </property>
       <property name="rules" stdset="0">
-        <string>[{&quot;name&quot;: &quot;rule_0&quot;, &quot;property&quot;: &quot;Visible&quot;, &quot;channels&quot;: [{&quot;channel&quot;: &quot;demo:bar&quot;, &quot;trigger&quot;: true}], &quot;expression&quot;: &quot;ch[0]==0&quot;}]</string>
+        <string>[{&quot;name&quot;: &quot;visibility&quot;, &quot;property&quot;: &quot;Visible&quot;, &quot;channels&quot;: [{&quot;channel&quot;: &quot;demo:bar&quot;, &quot;trigger&quot;: true}], &quot;expression&quot;: &quot;ch[0]==0&quot;}]</string>
       </property>
       <property name="brush" stdset="0">
         <brush brushstyle="SolidPattern">

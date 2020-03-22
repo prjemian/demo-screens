@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+<class>MainWindow</class>
+<widget class="QMainWindow" name="MainWindow">
+    <property name="geometry">
+        <rect>
+            <x>10</x>
+            <y>25</y>
+            <width>363</width>
+            <height>241</height>
+        </rect>
+    </property>
+    <property name="styleSheet">
+        <string>
+
+QWidget#centralWidget {background: rgba(187, 187, 187, 255);}
+
+</string>
+    </property>
+    <widget class="QWidget" name="centralWidget">
+        <widget class="caPolyLine" name="caPolygon_0">
+            <property name="geometry">
+                <rect>
+                    <x>14</x>
+                    <y>11</y>
+                    <width>82</width>
+                    <height>63</height>
+                </rect>
+            </property>
+            <property name="foreground">
+                <color alpha="255">
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+            </property>
+            <property name="fillstyle">
+                <enum>Filled</enum>
+            </property>
+            <property name="lineColor">
+                <color alpha="255">
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+            </property>
+            <property name="linestyle">
+                <enum>Solid</enum>
+            </property>
+            <property name="xyPairs">
+                <string>0,2;44,63;82,8;6,57;30,0;0,2;</string>
+            </property>
+            <property name="polystyle">
+                <enum>caPolyLine::Polygon</enum>
+            </property>
+        </widget>
+        <widget class="caPolyLine" name="caPolygon_1">
+            <property name="geometry">
+                <rect>
+                    <x>166</x>
+                    <y>11</y>
+                    <width>179</width>
+                    <height>147</height>
+                </rect>
+            </property>
+            <property name="foreground">
+                <color alpha="255">
+                    <red>42</red>
+                    <green>99</green>
+                    <blue>228</blue>
+                </color>
+            </property>
+            <property name="fillstyle">
+                <enum>Filled</enum>
+            </property>
+            <property name="lineColor">
+                <color alpha="255">
+                    <red>42</red>
+                    <green>99</green>
+                    <blue>228</blue>
+                </color>
+            </property>
+            <property name="linestyle">
+                <enum>Solid</enum>
+            </property>
+            <property name="xyPairs">
+                <string>73,58;64,67;91,86;122,51;126,9;74,0;31,13;14,40;0,101;25,140;85,147;128,137;179,70;172,52;161,54;140,103;106,126;56,124;28,108;27,67;39,28;85,17;115,26;108,54;86,70;73,58;</string>
+            </property>
+            <property name="polystyle">
+                <enum>caPolyLine::Polygon</enum>
+            </property>
+        </widget>
+        <widget class="caPolyLine" name="caPolygon_2">
+            <property name="geometry">
+                <rect>
+                    <x>43</x>
+                    <y>181</y>
+                    <width>283</width>
+                    <height>45</height>
+                </rect>
+            </property>
+            <property name="foreground">
+                <color alpha="255">
+                    <red>225</red>
+                    <green>144</green>
+                    <blue>21</blue>
+                </color>
+            </property>
+            <property name="fillstyle">
+                <enum>Filled</enum>
+            </property>
+            <property name="lineColor">
+                <color alpha="255">
+                    <red>225</red>
+                    <green>144</green>
+                    <blue>21</blue>
+                </color>
+            </property>
+            <property name="linestyle">
+                <enum>Solid</enum>
+            </property>
+            <property name="visibility">
+                <enum>caPolyLine::Calc</enum>
+            </property>
+            <property name="visibilityCalc">
+                <string>a&gt;127</string>
+            </property>
+            <property name="channel">
+                <string>demo:bar_RBV</string>
+            </property>
+            <property name="xyPairs">
+                <string>0,22;55,7;45,19;279,0;255,22;283,45;46,26;54,38;0,22;</string>
+            </property>
+            <property name="polystyle">
+                <enum>caPolyLine::Polygon</enum>
+            </property>
+        </widget>
+        <widget class="caPolyLine" name="caPolygon_3">
+            <property name="geometry">
+                <rect>
+                    <x>30</x>
+                    <y>36</y>
+                    <width>88</width>
+                    <height>81</height>
+                </rect>
+            </property>
+            <property name="foreground">
+                <color alpha="255">
+                    <red>115</red>
+                    <green>255</green>
+                    <blue>107</blue>
+                </color>
+            </property>
+            <property name="fillstyle">
+                <enum>Filled</enum>
+            </property>
+            <property name="lineColor">
+                <color alpha="255">
+                    <red>115</red>
+                    <green>255</green>
+                    <blue>107</blue>
+                </color>
+            </property>
+            <property name="linestyle">
+                <enum>Solid</enum>
+            </property>
+            <property name="visibility">
+                <enum>caPolyLine::Calc</enum>
+            </property>
+            <property name="visibilityCalc">
+                <string>ABS(A-B)&lt;0.5</string>
+            </property>
+            <property name="channel">
+                <string>demo:bar_RBV</string>
+            </property>
+            <property name="channelB">
+                <string>demo:bar</string>
+            </property>
+            <property name="xyPairs">
+                <string>13,46;0,54;28,81;88,8;77,0;27,65;13,46;</string>
+            </property>
+            <property name="polystyle">
+                <enum>caPolyLine::Polygon</enum>
+            </property>
+        </widget>
+        <widget class="caPolyLine" name="caPolygon_4">
+            <property name="geometry">
+                <rect>
+                    <x>76</x>
+                    <y>111</y>
+                    <width>87</width>
+                    <height>68</height>
+                </rect>
+            </property>
+            <property name="lineSize">
+                <number>5</number>
+            </property>
+            <property name="foreground">
+                <color alpha="255">
+                    <red>174</red>
+                    <green>78</green>
+                    <blue>188</blue>
+                </color>
+            </property>
+            <property name="background">
+                <color alpha="0">
+                    <red>174</red>
+                    <green>78</green>
+                    <blue>188</blue>
+                </color>
+            </property>
+            <property name="lineColor">
+                <color alpha="255">
+                    <red>174</red>
+                    <green>78</green>
+                    <blue>188</blue>
+                </color>
+            </property>
+            <property name="linestyle">
+                <enum>Dash</enum>
+            </property>
+            <property name="xyPairs">
+                <string>2,4;46,65;84,10;8,59;32,2;2,4;</string>
+            </property>
+            <property name="polystyle">
+                <enum>caPolyLine::Polygon</enum>
+            </property>
+        </widget>
+        <zorder>caPolygon_0</zorder>
+        <zorder>caPolygon_1</zorder>
+        <zorder>caPolygon_2</zorder>
+        <zorder>caPolygon_3</zorder>
+        <zorder>caPolygon_4</zorder>
+    </widget>
+</widget>
+</ui>

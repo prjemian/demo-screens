@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <ui version="4.0">
-  <class>related_display2</class>
+  <class>Dialog</class>
   <widget class="QWidget" name="screen">
     <property name="geometry">
       <rect>
