@@ -1,0 +1,6 @@
+record(ao, "demo:bar") {
+    field(HOPR, 255.0)
+    field(LOPR, 0.0)
+    field(VAL, 0.0)
+    field(EGU, "nonsense units")
+}
