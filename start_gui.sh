@@ -45,8 +45,8 @@ run_medm() {
     OPTS+=" -x"
     OPTS+=" -noMsg"
 
-    echo "EPICS_DISPLAY_PATH = '${EPICS_DISPLAY_PATH}'"
-    echo "OPTS = '${OPTS}'"
+    # echo "EPICS_DISPLAY_PATH = '${EPICS_DISPLAY_PATH}'"
+    # echo "OPTS = '${OPTS}'"
 
     medm ${OPTS} related_display1.adl &
 }
