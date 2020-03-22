@@ -12,5 +12,5 @@ record(ai, "demo:bar_RBV") {
     field(LOPR, 0.0)
     field(EGU, "nonsense units")
     field(SMOO, 0.95)
-    field(SCAN, "0.1 second")
+    field(SCAN, ".1 second")
 }

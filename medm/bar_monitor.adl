@@ -179,7 +179,7 @@ bar {
 		height=36
 	}
 	monitor {
-		chan="demo:bar"
+		chan="demo:bar_RBV"
 		clr=20
 		bclr=4
 	}
@@ -249,7 +249,7 @@ bar {
 		height=24
 	}
 	monitor {
-		chan="demo:bar"
+		chan="demo:bar_RBV"
 		clr=20
 		bclr=4
 	}
@@ -264,7 +264,7 @@ bar {
 		height=60
 	}
 	monitor {
-		chan="demo:bar"
+		chan="demo:bar_RBV"
 		clr=20
 		bclr=4
 	}
@@ -280,7 +280,7 @@ bar {
 		height=80
 	}
 	monitor {
-		chan="demo:bar"
+		chan="demo:bar_RBV"
 		clr=20
 		bclr=4
 	}
@@ -296,7 +296,7 @@ bar {
 		height=80
 	}
 	monitor {
-		chan="demo:bar"
+		chan="demo:bar_RBV"
 		clr=20
 		bclr=4
 	}
@@ -312,7 +312,7 @@ bar {
 		height=24
 	}
 	monitor {
-		chan="demo:bar"
+		chan="demo:bar_RBV"
 		clr=20
 		bclr=4
 	}
@@ -328,7 +328,7 @@ bar {
 		height=36
 	}
 	monitor {
-		chan="demo:bar"
+		chan="demo:bar_RBV"
 		clr=20
 		bclr=4
 	}
