@@ -1,0 +1,839 @@
+<?xml version="1.0" ?>
+<ui version="4.0">
+  <class>bar_monitor</class>
+  <widget class="QWidget" name="screen">
+    <property name="geometry">
+      <rect>
+        <x>10</x>
+        <y>25</y>
+        <width>448</width>
+        <height>490</height>
+      </rect>
+    </property>
+    <property name="styleSheet">
+      <string notr="true">QWidget#screen {
+  color: rgb(0, 0, 0);
+  background-color: rgb(187, 187, 187);
+  }</string>
+    </property>
+    <property name="windowTitle">
+      <string>bar_monitor</string>
+    </property>
+    <widget class="PyDMDrawingEllipse" name="oval">
+      <property name="geometry">
+        <rect>
+          <x>20</x>
+          <y>65</y>
+          <width>84</width>
+          <height>38</height>
+        </rect>
+      </property>
+      <property name="toolTip">
+        <string>TBA widget: oval</string>
+      </property>
+      <property name="brush" stdset="0">
+        <brush brushstyle="SolidPattern">
+          <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </color>
+        </brush>
+      </property>
+      <property name="penStyle" stdset="0">
+        <enum>Qt::SolidLine</enum>
+      </property>
+      <property name="penColor" stdset="0">
+        <color>
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+      </property>
+      <property name="penWidth" stdset="0">
+        <double>0</double>
+      </property>
+      <property name="penCapStyle" stdset="0">
+        <enum>Qt::FlatCap</enum>
+      </property>
+    </widget>
+    <widget class="PyDMLabel" name="text">
+      <property name="geometry">
+        <rect>
+          <x>29</x>
+          <y>20</y>
+          <width>350</width>
+          <height>28</height>
+        </rect>
+      </property>
+      <property name="text">
+        <string>Ovals {static of PV-connected}</string>
+      </property>
+      <property name="font" stdset="0">
+        <font>
+          <pointsize>10</pointsize>
+        </font>
+      </property>
+      <property name="brush" stdset="0">
+        <brush brushstyle="SolidPattern">
+          <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </color>
+        </brush>
+      </property>
+      <property name="toolTip">
+        <string>text</string>
+      </property>
+      <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+      <property name="styleSheet">
+        <string notr="true">PyDMLabel#text {
+  color: rgb(0, 0, 0);
+  }</string>
+      </property>
+    </widget>
+    <widget class="PyDMDrawingEllipse" name="oval_1">
+      <property name="geometry">
+        <rect>
+          <x>115</x>
+          <y>65</y>
+          <width>84</width>
+          <height>38</height>
+        </rect>
+      </property>
+      <property name="toolTip">
+        <string>TBA widget: oval_1</string>
+      </property>
+      <property name="brush" stdset="0">
+        <brush brushstyle="NoBrush">
+          <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </color>
+        </brush>
+      </property>
+      <property name="penStyle" stdset="0">
+        <enum>Qt::SolidLine</enum>
+      </property>
+      <property name="penColor" stdset="0">
+        <color>
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+      </property>
+      <property name="penWidth" stdset="0">
+        <double>1</double>
+      </property>
+      <property name="penCapStyle" stdset="0">
+        <enum>Qt::FlatCap</enum>
+      </property>
+    </widget>
+    <widget class="PyDMDrawingEllipse" name="oval_2">
+      <property name="geometry">
+        <rect>
+          <x>205</x>
+          <y>65</y>
+          <width>84</width>
+          <height>38</height>
+        </rect>
+      </property>
+      <property name="toolTip">
+        <string>TBA widget: oval_2</string>
+      </property>
+      <property name="brush" stdset="0">
+        <brush brushstyle="NoBrush">
+          <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </color>
+        </brush>
+      </property>
+      <property name="penStyle" stdset="0">
+        <enum>Qt::DashLine</enum>
+      </property>
+      <property name="penColor" stdset="0">
+        <color>
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+      </property>
+      <property name="penWidth" stdset="0">
+        <double>1</double>
+      </property>
+      <property name="penCapStyle" stdset="0">
+        <enum>Qt::FlatCap</enum>
+      </property>
+    </widget>
+    <widget class="PyDMDrawingEllipse" name="oval_3">
+      <property name="geometry">
+        <rect>
+          <x>20</x>
+          <y>125</y>
+          <width>84</width>
+          <height>38</height>
+        </rect>
+      </property>
+      <property name="toolTip">
+        <string>TBA widget: oval_3</string>
+      </property>
+      <property name="brush" stdset="0">
+        <brush brushstyle="SolidPattern">
+          <color alpha="255">
+            <red>253</red>
+            <green>0</green>
+            <blue>0</blue>
+          </color>
+        </brush>
+      </property>
+      <property name="penStyle" stdset="0">
+        <enum>Qt::SolidLine</enum>
+      </property>
+      <property name="penColor" stdset="0">
+        <color>
+          <red>253</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+      </property>
+      <property name="penWidth" stdset="0">
+        <double>0</double>
+      </property>
+      <property name="penCapStyle" stdset="0">
+        <enum>Qt::FlatCap</enum>
+      </property>
+    </widget>
+    <widget class="PyDMDrawingEllipse" name="oval_4">
+      <property name="geometry">
+        <rect>
+          <x>110</x>
+          <y>125</y>
+          <width>84</width>
+          <height>38</height>
+        </rect>
+      </property>
+      <property name="toolTip">
+        <string>TBA widget: oval_4</string>
+      </property>
+      <property name="brush" stdset="0">
+        <brush brushstyle="NoBrush">
+          <color alpha="255">
+            <red>253</red>
+            <green>0</green>
+            <blue>0</blue>
+          </color>
+        </brush>
+      </property>
+      <property name="penStyle" stdset="0">
+        <enum>Qt::SolidLine</enum>
+      </property>
+      <property name="penColor" stdset="0">
+        <color>
+          <red>253</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+      </property>
+      <property name="penWidth" stdset="0">
+        <double>1</double>
+      </property>
+      <property name="penCapStyle" stdset="0">
+        <enum>Qt::FlatCap</enum>
+      </property>
+    </widget>
+    <widget class="PyDMDrawingEllipse" name="oval_5">
+      <property name="geometry">
+        <rect>
+          <x>205</x>
+          <y>125</y>
+          <width>84</width>
+          <height>38</height>
+        </rect>
+      </property>
+      <property name="toolTip">
+        <string>TBA widget: oval_5</string>
+      </property>
+      <property name="brush" stdset="0">
+        <brush brushstyle="NoBrush">
+          <color alpha="255">
+            <red>253</red>
+            <green>0</green>
+            <blue>0</blue>
+          </color>
+        </brush>
+      </property>
+      <property name="penStyle" stdset="0">
+        <enum>Qt::DashLine</enum>
+      </property>
+      <property name="penColor" stdset="0">
+        <color>
+          <red>253</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+      </property>
+      <property name="penWidth" stdset="0">
+        <double>1</double>
+      </property>
+      <property name="penCapStyle" stdset="0">
+        <enum>Qt::FlatCap</enum>
+      </property>
+    </widget>
+    <widget class="PyDMScaleIndicator" name="bar">
+      <property name="geometry">
+        <rect>
+          <x>95</x>
+          <y>330</y>
+          <width>80</width>
+          <height>36</height>
+        </rect>
+      </property>
+      <property name="channel" stdset="0">
+        <string>ca://demo:bar_RBV</string>
+      </property>
+      <property name="toolTip">
+        <string>demo:bar_RBV</string>
+      </property>
+      <property name="orientation" stdset="0">
+        <string>Qt::Horizontal</string>
+      </property>
+      <property name="barIndicator" stdset="0">
+        <bool>true</bool>
+      </property>
+      <property name="showValue" stdset="0">
+        <bool>false</bool>
+      </property>
+      <property name="showTicks" stdset="0">
+        <bool>false</bool>
+      </property>
+      <property name="showLimits" stdset="0">
+        <bool>false</bool>
+      </property>
+      <property name="indicatorColor" stdset="0">
+        <color>
+          <red>253</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+      </property>
+      <property name="backgroundColor" stdset="0">
+        <color>
+          <red>187</red>
+          <green>187</green>
+          <blue>187</blue>
+        </color>
+      </property>
+    </widget>
+    <widget class="PyDMLabel" name="text_1">
+      <property name="geometry">
+        <rect>
+          <x>22</x>
+          <y>250</y>
+          <width>400</width>
+          <height>28</height>
+        </rect>
+      </property>
+      <property name="text">
+        <string>Bar Monitors {only PV-connected}</string>
+      </property>
+      <property name="font" stdset="0">
+        <font>
+          <pointsize>10</pointsize>
+        </font>
+      </property>
+      <property name="brush" stdset="0">
+        <brush brushstyle="SolidPattern">
+          <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </color>
+        </brush>
+      </property>
+      <property name="toolTip">
+        <string>text_1</string>
+      </property>
+      <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+      <property name="styleSheet">
+        <string notr="true">PyDMLabel#text_1 {
+  color: rgb(0, 0, 0);
+  }</string>
+      </property>
+    </widget>
+    <widget class="PyDMLabel" name="text_2">
+      <property name="geometry">
+        <rect>
+          <x>22</x>
+          <y>288</y>
+          <width>60</width>
+          <height>12</height>
+        </rect>
+      </property>
+      <property name="text">
+        <string>bar value</string>
+      </property>
+      <property name="font" stdset="0">
+        <font>
+          <pointsize>6</pointsize>
+        </font>
+      </property>
+      <property name="brush" stdset="0">
+        <brush brushstyle="SolidPattern">
+          <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </color>
+        </brush>
+      </property>
+      <property name="toolTip">
+        <string>text_2</string>
+      </property>
+      <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+      <property name="styleSheet">
+        <string notr="true">PyDMLabel#text_2 {
+  color: rgb(0, 0, 0);
+  }</string>
+      </property>
+    </widget>
+    <widget class="PyDMLabel" name="text_update">
+      <property name="geometry">
+        <rect>
+          <x>87</x>
+          <y>288</y>
+          <width>70</width>
+          <height>12</height>
+        </rect>
+      </property>
+      <property name="toolTip">
+        <string>PV: demo:bar</string>
+      </property>
+      <property name="channel" stdset="0">
+        <string>ca://demo:bar</string>
+      </property>
+      <property name="font" stdset="0">
+        <font>
+          <pointsize>6</pointsize>
+        </font>
+      </property>
+      <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+      <property name="textInteractionFlags">
+        <set>Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+      <property name="styleSheet">
+        <string notr="true">PyDMLabel#text_update {
+  color: rgb(0, 0, 0);
+  background-color: rgb(187, 187, 187);
+  }</string>
+      </property>
+    </widget>
+    <widget class="PyDMSlider" name="valuator">
+      <property name="geometry">
+        <rect>
+          <x>162</x>
+          <y>282</y>
+          <width>241</width>
+          <height>24</height>
+        </rect>
+      </property>
+      <property name="channel" stdset="0">
+        <string>ca://demo:bar</string>
+      </property>
+      <property name="toolTip">
+        <string>demo:bar</string>
+      </property>
+      <property name="orientation" stdset="0">
+        <string>Qt::Horizontal</string>
+      </property>
+    </widget>
+    <widget class="PyDMScaleIndicator" name="bar_1">
+      <property name="geometry">
+        <rect>
+          <x>95</x>
+          <y>377</y>
+          <width>80</width>
+          <height>24</height>
+        </rect>
+      </property>
+      <property name="channel" stdset="0">
+        <string>ca://demo:bar_RBV</string>
+      </property>
+      <property name="toolTip">
+        <string>demo:bar_RBV</string>
+      </property>
+      <property name="orientation" stdset="0">
+        <string>Qt::Horizontal</string>
+      </property>
+      <property name="barIndicator" stdset="0">
+        <bool>true</bool>
+      </property>
+      <property name="showValue" stdset="0">
+        <bool>false</bool>
+      </property>
+      <property name="showTicks" stdset="0">
+        <bool>false</bool>
+      </property>
+      <property name="showLimits" stdset="0">
+        <bool>false</bool>
+      </property>
+      <property name="indicatorColor" stdset="0">
+        <color>
+          <red>253</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+      </property>
+      <property name="backgroundColor" stdset="0">
+        <color>
+          <red>187</red>
+          <green>187</green>
+          <blue>187</blue>
+        </color>
+      </property>
+    </widget>
+    <widget class="PyDMScaleIndicator" name="bar_2">
+      <property name="geometry">
+        <rect>
+          <x>15</x>
+          <y>418</y>
+          <width>400</width>
+          <height>60</height>
+        </rect>
+      </property>
+      <property name="channel" stdset="0">
+        <string>ca://demo:bar_RBV</string>
+      </property>
+      <property name="toolTip">
+        <string>demo:bar_RBV</string>
+      </property>
+      <property name="orientation" stdset="0">
+        <string>Qt::Horizontal</string>
+      </property>
+      <property name="barIndicator" stdset="0">
+        <bool>true</bool>
+      </property>
+      <property name="showValue" stdset="0">
+        <bool>true</bool>
+      </property>
+      <property name="showTicks" stdset="0">
+        <bool>true</bool>
+      </property>
+      <property name="showLimits" stdset="0">
+        <bool>false</bool>
+      </property>
+      <property name="indicatorColor" stdset="0">
+        <color>
+          <red>253</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+      </property>
+      <property name="backgroundColor" stdset="0">
+        <color>
+          <red>187</red>
+          <green>187</green>
+          <blue>187</blue>
+        </color>
+      </property>
+    </widget>
+    <widget class="PyDMScaleIndicator" name="bar_3">
+      <property name="geometry">
+        <rect>
+          <x>17</x>
+          <y>328</y>
+          <width>24</width>
+          <height>80</height>
+        </rect>
+      </property>
+      <property name="channel" stdset="0">
+        <string>ca://demo:bar_RBV</string>
+      </property>
+      <property name="toolTip">
+        <string>demo:bar_RBV</string>
+      </property>
+      <property name="orientation" stdset="0">
+        <string>Qt::Vertical</string>
+      </property>
+      <property name="barIndicator" stdset="0">
+        <bool>true</bool>
+      </property>
+      <property name="showValue" stdset="0">
+        <bool>false</bool>
+      </property>
+      <property name="showTicks" stdset="0">
+        <bool>false</bool>
+      </property>
+      <property name="showLimits" stdset="0">
+        <bool>false</bool>
+      </property>
+      <property name="indicatorColor" stdset="0">
+        <color>
+          <red>253</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+      </property>
+      <property name="backgroundColor" stdset="0">
+        <color>
+          <red>187</red>
+          <green>187</green>
+          <blue>187</blue>
+        </color>
+      </property>
+    </widget>
+    <widget class="PyDMScaleIndicator" name="bar_4">
+      <property name="geometry">
+        <rect>
+          <x>52</x>
+          <y>328</y>
+          <width>24</width>
+          <height>80</height>
+        </rect>
+      </property>
+      <property name="channel" stdset="0">
+        <string>ca://demo:bar_RBV</string>
+      </property>
+      <property name="toolTip">
+        <string>demo:bar_RBV</string>
+      </property>
+      <property name="orientation" stdset="0">
+        <string>Qt::Vertical</string>
+      </property>
+      <property name="invertedAppearance" stdset="0">
+        <bool>true</bool>
+      </property>
+      <property name="barIndicator" stdset="0">
+        <bool>true</bool>
+      </property>
+      <property name="showValue" stdset="0">
+        <bool>false</bool>
+      </property>
+      <property name="showTicks" stdset="0">
+        <bool>false</bool>
+      </property>
+      <property name="showLimits" stdset="0">
+        <bool>false</bool>
+      </property>
+      <property name="indicatorColor" stdset="0">
+        <color>
+          <red>253</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+      </property>
+      <property name="backgroundColor" stdset="0">
+        <color>
+          <red>187</red>
+          <green>187</green>
+          <blue>187</blue>
+        </color>
+      </property>
+    </widget>
+    <widget class="PyDMScaleIndicator" name="bar_5">
+      <property name="geometry">
+        <rect>
+          <x>194</x>
+          <y>377</y>
+          <width>80</width>
+          <height>24</height>
+        </rect>
+      </property>
+      <property name="channel" stdset="0">
+        <string>ca://demo:bar_RBV</string>
+      </property>
+      <property name="toolTip">
+        <string>demo:bar_RBV</string>
+      </property>
+      <property name="orientation" stdset="0">
+        <string>Qt::Horizontal</string>
+      </property>
+      <property name="invertedAppearance" stdset="0">
+        <bool>true</bool>
+      </property>
+      <property name="barIndicator" stdset="0">
+        <bool>true</bool>
+      </property>
+      <property name="showValue" stdset="0">
+        <bool>false</bool>
+      </property>
+      <property name="showTicks" stdset="0">
+        <bool>false</bool>
+      </property>
+      <property name="showLimits" stdset="0">
+        <bool>false</bool>
+      </property>
+      <property name="indicatorColor" stdset="0">
+        <color>
+          <red>253</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+      </property>
+      <property name="backgroundColor" stdset="0">
+        <color>
+          <red>187</red>
+          <green>187</green>
+          <blue>187</blue>
+        </color>
+      </property>
+    </widget>
+    <widget class="PyDMScaleIndicator" name="bar_6">
+      <property name="geometry">
+        <rect>
+          <x>194</x>
+          <y>330</y>
+          <width>80</width>
+          <height>36</height>
+        </rect>
+      </property>
+      <property name="channel" stdset="0">
+        <string>ca://demo:bar_RBV</string>
+      </property>
+      <property name="toolTip">
+        <string>demo:bar_RBV</string>
+      </property>
+      <property name="orientation" stdset="0">
+        <string>Qt::Horizontal</string>
+      </property>
+      <property name="invertedAppearance" stdset="0">
+        <bool>true</bool>
+      </property>
+      <property name="barIndicator" stdset="0">
+        <bool>true</bool>
+      </property>
+      <property name="showValue" stdset="0">
+        <bool>false</bool>
+      </property>
+      <property name="showTicks" stdset="0">
+        <bool>false</bool>
+      </property>
+      <property name="showLimits" stdset="0">
+        <bool>false</bool>
+      </property>
+      <property name="indicatorColor" stdset="0">
+        <color>
+          <red>253</red>
+          <green>0</green>
+          <blue>0</blue>
+        </color>
+      </property>
+      <property name="backgroundColor" stdset="0">
+        <color>
+          <red>187</red>
+          <green>187</green>
+          <blue>187</blue>
+        </color>
+      </property>
+    </widget>
+    <widget class="PyDMLabel" name="text_3">
+      <property name="geometry">
+        <rect>
+          <x>284</x>
+          <y>347</y>
+          <width>150</width>
+          <height>12</height>
+        </rect>
+      </property>
+      <property name="text">
+        <string>these bars follow</string>
+      </property>
+      <property name="font" stdset="0">
+        <font>
+          <pointsize>6</pointsize>
+        </font>
+      </property>
+      <property name="brush" stdset="0">
+        <brush brushstyle="SolidPattern">
+          <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </color>
+        </brush>
+      </property>
+      <property name="toolTip">
+        <string>text_3</string>
+      </property>
+      <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+      <property name="styleSheet">
+        <string notr="true">PyDMLabel#text_3 {
+  color: rgb(0, 0, 0);
+  }</string>
+      </property>
+    </widget>
+    <widget class="PyDMLabel" name="text_4">
+      <property name="geometry">
+        <rect>
+          <x>284</x>
+          <y>368</y>
+          <width>150</width>
+          <height>12</height>
+        </rect>
+      </property>
+      <property name="text">
+        <string>the slider's value</string>
+      </property>
+      <property name="font" stdset="0">
+        <font>
+          <pointsize>6</pointsize>
+        </font>
+      </property>
+      <property name="brush" stdset="0">
+        <brush brushstyle="SolidPattern">
+          <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </color>
+        </brush>
+      </property>
+      <property name="toolTip">
+        <string>text_4</string>
+      </property>
+      <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+      <property name="styleSheet">
+        <string notr="true">PyDMLabel#text_4 {
+  color: rgb(0, 0, 0);
+  }</string>
+      </property>
+    </widget>
+  </widget>
+  <customwidgets>
+    <customwidget>
+      <class>PyDMDrawingEllipse</class>
+      <extends>QWidget</extends>
+      <header>pydm.widgets.drawing</header>
+    </customwidget>
+    <customwidget>
+      <class>PyDMLabel</class>
+      <extends>QLabel</extends>
+      <header>pydm.widgets.label</header>
+    </customwidget>
+    <customwidget>
+      <class>PyDMScaleIndicator</class>
+      <extends>QFrame</extends>
+      <header>pydm.widgets.scale</header>
+    </customwidget>
+    <customwidget>
+      <class>PyDMSlider</class>
+      <extends>QFrame</extends>
+      <header>pydm.widgets.slider</header>
+    </customwidget>
+  </customwidgets>
+</ui>
