@@ -1,11 +1,11 @@
 
 file {
-	name="bar_monitor.adl"
+	name="/home/mintadmin/Documents/projects/demo-screens/medm/bar_monitor.adl"
 	version=030114
 }
 display {
 	object {
-		x=0
+		x=10
 		y=25
 		width=448
 		height=490
@@ -280,7 +280,7 @@ bar {
 		height=80
 	}
 	monitor {
-		chan="demo:bar"
+		chan="demo:bar"
 		clr=20
 		bclr=4
 	}
@@ -335,4 +335,28 @@ bar {
 	direction="left"
 	limits {
 	}
+}
+text {
+	object {
+		x=284
+		y=347
+		width=150
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="these bars follow"
+}
+text {
+	object {
+		x=284
+		y=368
+		width=150
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="the slider's value"
 }

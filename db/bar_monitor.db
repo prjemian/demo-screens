@@ -3,4 +3,14 @@ record(ao, "demo:bar") {
     field(LOPR, 0.0)
     field(VAL, 0.0)
     field(EGU, "nonsense units")
+    field(FLNK, "demo:bar_RBV")
+}
+
+record(ai, "demo:bar_RBV") {
+    field(INP, "demo:bar")
+    field(HOPR, 255.0)
+    field(LOPR, 0.0)
+    field(EGU, "nonsense units")
+    field(SMOO, 0.95)
+    field(SCAN, "0.1 second")
 }
