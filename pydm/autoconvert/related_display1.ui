@@ -1,10 +1,10 @@
 <?xml version="1.0" ?>
 <ui version="4.0">
-  <class>screen1</class>
+  <class>related_display1</class>
   <widget class="QWidget" name="screen">
     <property name="geometry">
       <rect>
-        <x>0</x>
+        <x>10</x>
         <y>25</y>
         <width>216</width>
         <height>133</height>
@@ -17,19 +17,19 @@
   }</string>
     </property>
     <property name="windowTitle">
-      <string>screen1</string>
+      <string>related_display1</string>
     </property>
     <widget class="PyDMLabel" name="text">
       <property name="geometry">
         <rect>
           <x>14</x>
           <y>10</y>
-          <width>154</width>
-          <height>31</height>
+          <width>177</width>
+          <height>20</height>
         </rect>
       </property>
       <property name="text">
-        <string>screen 1</string>
+        <string>related display 1</string>
       </property>
       <property name="font" stdset="0">
         <font>
@@ -60,17 +60,17 @@
     <widget class="PyDMRelatedDisplayButton" name="related_display">
       <property name="geometry">
         <rect>
-          <x>16</x>
-          <y>41</y>
-          <width>157</width>
-          <height>27</height>
+          <x>14</x>
+          <y>61</y>
+          <width>180</width>
+          <height>18</height>
         </rect>
       </property>
       <property name="toolTip">
-        <string>open screen 2</string>
+        <string>open related display 2</string>
       </property>
       <property name="text">
-        <string>open screen 2</string>
+        <string>open related display 2</string>
       </property>
       <property name="showIcon" stdset="0">
         <bool>true</bool>
@@ -88,12 +88,12 @@
       </property>
       <property name="titles" stdset="0">
         <stringlist>
-          <string>open screen2</string>
+          <string>open related_display2</string>
         </stringlist>
       </property>
       <property name="filenames" stdset="0">
         <stringlist>
-          <string>screen2.ui</string>
+          <string>related_display2.ui</string>
         </stringlist>
       </property>
       <property name="macros" stdset="0">
@@ -108,17 +108,17 @@
     <widget class="PyDMRelatedDisplayButton" name="related_display_1">
       <property name="geometry">
         <rect>
-          <x>16</x>
-          <y>84</y>
-          <width>157</width>
-          <height>27</height>
+          <x>14</x>
+          <y>98</y>
+          <width>180</width>
+          <height>18</height>
         </rect>
       </property>
       <property name="toolTip">
-        <string>open screen 3</string>
+        <string>open related display 3</string>
       </property>
       <property name="text">
-        <string>open screen 3</string>
+        <string>open related display 3</string>
       </property>
       <property name="showIcon" stdset="0">
         <bool>true</bool>
@@ -136,12 +136,12 @@
       </property>
       <property name="titles" stdset="0">
         <stringlist>
-          <string>open screen3</string>
+          <string>open related_display3</string>
         </stringlist>
       </property>
       <property name="filenames" stdset="0">
         <stringlist>
-          <string>screen3.ui</string>
+          <string>related_display3.ui</string>
         </stringlist>
       </property>
       <property name="macros" stdset="0">

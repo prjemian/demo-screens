@@ -4,7 +4,7 @@
 <widget class="QMainWindow" name="MainWindow">
     <property name="geometry">
         <rect>
-            <x>0</x>
+            <x>10</x>
             <y>25</y>
             <width>216</width>
             <height>133</height>
@@ -37,7 +37,7 @@ QWidget#centralWidget {background: rgba(187, 187, 187, 255);}
                 </color>
             </property>
             <property name="text">
-                <string>screen 1</string>
+                <string>related display 2</string>
             </property>
             <property name="fontScaleMode">
                 <enum>ESimpleLabel::WidthAndHeight</enum>
@@ -46,8 +46,8 @@ QWidget#centralWidget {background: rgba(187, 187, 187, 255);}
                 <rect>
                     <x>14</x>
                     <y>10</y>
-                    <width>154</width>
-                    <height>31</height>
+                    <width>177</width>
+                    <height>20</height>
                 </rect>
             </property>
             <property name="alignment">
@@ -57,10 +57,10 @@ QWidget#centralWidget {background: rgba(187, 187, 187, 255);}
         <widget class="caRelatedDisplay" name="caRelatedDisplay_0">
             <property name="geometry">
                 <rect>
-                    <x>16</x>
+                    <x>14</x>
                     <y>41</y>
-                    <width>157</width>
-                    <height>27</height>
+                    <width>180</width>
+                    <height>18</height>
                 </rect>
             </property>
             <property name="foreground">
@@ -78,16 +78,16 @@ QWidget#centralWidget {background: rgba(187, 187, 187, 255);}
                 </color>
             </property>
             <property name="label">
-                <string>open screen 2</string>
+                <string>open related display 1</string>
             </property>
             <property name="stackingMode">
                 <enum>Menu</enum>
             </property>
             <property name="labels">
-                <string>open screen2</string>
+                <string>open related_display1</string>
             </property>
             <property name="files">
-                <string>screen2.adl</string>
+                <string>related_display1.adl</string>
             </property>
             <property name="args">
                 <string></string>
@@ -99,10 +99,10 @@ QWidget#centralWidget {background: rgba(187, 187, 187, 255);}
         <widget class="caRelatedDisplay" name="caRelatedDisplay_1">
             <property name="geometry">
                 <rect>
-                    <x>16</x>
-                    <y>84</y>
-                    <width>157</width>
-                    <height>27</height>
+                    <x>14</x>
+                    <y>98</y>
+                    <width>180</width>
+                    <height>18</height>
                 </rect>
             </property>
             <property name="foreground">
@@ -120,16 +120,16 @@ QWidget#centralWidget {background: rgba(187, 187, 187, 255);}
                 </color>
             </property>
             <property name="label">
-                <string>open screen 3</string>
+                <string>open related display 3</string>
             </property>
             <property name="stackingMode">
                 <enum>Menu</enum>
             </property>
             <property name="labels">
-                <string>open screen3</string>
+                <string>open related_display3</string>
             </property>
             <property name="files">
-                <string>screen3.adl</string>
+                <string>related_display3.adl</string>
             </property>
             <property name="args">
                 <string></string>

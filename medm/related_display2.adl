@@ -1,11 +1,11 @@
 
 file {
-	name="screen2.adl"
+	name="/home/mintadmin/Documents/projects/demo-screens/medm/related_display2.adl"
 	version=030114
 }
 display {
 	object {
-		x=0
+		x=10
 		y=25
 		width=216
 		height=133
@@ -91,41 +91,41 @@ text {
 	object {
 		x=14
 		y=10
-		width=154
-		height=31
+		width=177
+		height=20
 	}
 	"basic attribute" {
 		clr=14
 	}
-	textix="screen 2"
+	textix="related display 2"
 }
 "related display" {
 	object {
-		x=16
+		x=14
 		y=41
-		width=157
-		height=27
+		width=180
+		height=18
 	}
 	display[0] {
-		label="open screen1"
-		name="screen1.adl"
+		label="open related_display1"
+		name="related_display1.adl"
 	}
 	clr=14
 	bclr=4
-	label="open screen 1"
+	label="open related display 1"
 }
 "related display" {
 	object {
-		x=16
-		y=83
-		width=157
-		height=27
+		x=14
+		y=98
+		width=180
+		height=18
 	}
 	display[0] {
-		label="open screen3"
-		name="screen3.adl"
+		label="open related_display3"
+		name="related_display3.adl"
 	}
 	clr=14
 	bclr=4
-	label="open screen 3"
+	label="open related display 3"
 }
