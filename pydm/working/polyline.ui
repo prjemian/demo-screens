@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<ui version="4.0">
+  <class>polyline</class>
+  <widget class="QWidget" name="screen">
+    <property name="geometry">
+      <rect>
+        <x>0</x>
+        <y>25</y>
+        <width>155</width>
+        <height>158</height>
+      </rect>
+    </property>
+    <property name="styleSheet">
+      <string notr="true">QWidget#screen {
+  color: rgb(0, 0, 0);
+  background-color: rgb(187, 187, 187);
+  }</string>
+    </property>
+    <property name="windowTitle">
+      <string>polyline</string>
+    </property>
+    <widget class="PyDMDrawingPolyline" name="polyline">
+      <property name="geometry">
+        <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>61</width>
+          <height>61</height>
+        </rect>
+      </property>
+      <property name="toolTip">
+        <string>polyline</string>
+      </property>
+      <property name="brush" stdset="0">
+        <brush brushstyle="SolidPattern">
+          <color alpha="255">
+            <red>115</red>
+            <green>255</green>
+            <blue>107</blue>
+          </color>
+        </brush>
+      </property>
+      <property name="penStyle" stdset="0">
+        <enum>Qt::SolidLine</enum>
+      </property>
+      <property name="penColor" stdset="0">
+        <color>
+          <red>115</red>
+          <green>255</green>
+          <blue>107</blue>
+        </color>
+      </property>
+      <property name="penWidth" stdset="0">
+        <double>4</double>
+      </property>
+      <property name="penCapStyle" stdset="0">
+        <enum>Qt::FlatCap</enum>
+      </property>
+      <property name="points" stdset="0">
+        <stringlist>
+          <string>-2, -2</string>
+          <string>55, -2</string>
+          <string>-2, 55</string>
+          <string>55, 55</string>
+          <string>-2, -2</string>
+          <string>-2, 6</string>
+        </stringlist>
+      </property>
+    </widget>
+  </widget>
+  <customwidgets>
+    <customwidget>
+      <class>PyDMDrawingPolyline</class>
+      <extends>QWidget</extends>
+      <header>pydm.widgets.drawing</header>
+    </customwidget>
+  </customwidgets>
+</ui>

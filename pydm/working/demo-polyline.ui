@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>120</width>
+    <height>98</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="PyDMDrawingPolyline" name="PyDMDrawingPolyline">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>56</width>
+     <height>56</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="penColor" stdset="0">
+    <color>
+     <red>160</red>
+     <green>80</green>
+     <blue>250</blue>
+    </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>4.000000000000000</double>
+   </property>
+   <property name="points">
+    <stringlist>
+     <string>0,   0</string>
+     <string>48,   0</string>
+     <string>0,   48</string>
+     <string>48,   48</string>
+     <string>0,   0</string>
+     <string>0,                 10</string>
+    </stringlist>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PyDMDrawingPolyline</class>
+   <extends>QWidget</extends>
+   <header>pydm.widgets.drawing</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
